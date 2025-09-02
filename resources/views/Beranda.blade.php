@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SMKN4 TASIKMALAYA</title>
     <link rel="icon" href="{{ asset('storage/images/smk1.png') }}" type="image/png">
+    <link rel="stylesheet" href="{{ asset('storage/css/aw.css')}}">
 
     <!-- CSS Eksternal -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -13,35 +14,6 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
-    <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-        }
-
-        .navbar-brand span {
-            font-weight: 600;
-            letter-spacing: .5px;
-        }
-
-        .nav-link {
-            font-weight: 500;
-        }
-
-        .carousel-item img {
-            height: 800px;
-            width: 100%;
-            object-fit: cover;
-            transition: transform .5s ease-in-out;
-        }
-
-        .carousel-item:hover img {
-            transform: scale(1.1);
-        }
-
-        section {
-            margin-top: 130px;
-        }
-    </style>
 </head>
 
 <body>
@@ -49,9 +21,9 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg fixed-top">
         <div class="container">
-            <a class="navbar-brand d-flex align-items-center" href="#">
+            <a class="navbar-brand d-flex align-items-center" href="#beranda">
                 <img src="{{ asset('storage/images/smk.png') }}" alt="Logo" width="60">
-                <div class="d-flex flex-column lh-1 ms-2">
+                <div class="d-flex flex-column lh-1 ms-3">
                     <span>SMK NEGERI 4</span>
                     <span>TASIKMALAYA</span>
                 </div>
@@ -92,53 +64,33 @@
     </nav>
 
     <!-- Carousel -->
-    <section>
-        <div class="container d-flex justify-content-center">
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
-                        class="active"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="{{ asset('storage/images/DSC09542.JPG') }}" class="d-block w-100" alt="">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>JOB FAIR 2024</h5>
-                            <p>Hadirkan berbagai peluang karir dan pendidikan, mempertemukan siswa dengan perusahaan
-                                serta universitas unggulan.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="{{ asset('storage/images/DSC_1162.jpg') }}" class="d-block w-100" alt="">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Guru SMKN 4 — Inspirasi dan Dedikasi</h5>
-                            <p>Tim pendidik yang berdedikasi tinggi, profesional, dan penuh semangat membimbing siswa
-                                menuju masa depan cerah.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="{{ asset('storage/images/DSC00046.JPG') }}" class="d-block w-100" alt="">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Perpisahan Kelas 12 Surat Edaran KDM</h5>
-                            <p>Acara perpisahan sebagai kenang-kenangan dan apresiasi atas perjuangan selama ini.</p>
-                        </div>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                </button>
-            </div>
-        </div>
-    </section>
+    <div id="beranda" class="container">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="{{ asset('storage/images/DSC09542.JPG')}}" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ asset('storage/images/DSC09542.JPG')}}" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ asset('storage/images/DSC09542.JPG')}}" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    </div>
 
-    <div class="row data m-4 justify-content-center">
+            <div class="container" data-aos="zoom-in">
+    <div class="row m-4 justify-content-center">
+        <div class="row data m-4 justify-content-center">
         <div class="card card-data rounded-0 shadow col-md-2 col-3 rounded-start bg-dark">
             <div class="text-center m-3"><i class="bi bi-person-workspace text-light fs-1"></i>
                 <p class="fs-5 fw-semibold text-light mt-2 mb-0 total">82 Orang</p>
@@ -164,6 +116,9 @@
             </div>
         </div>
     </div>
+    </div>
+</div>
+
 
     <!-- Artikel Section -->
     <section class="section-page section-news bg-light">
@@ -182,7 +137,7 @@
             </div>
             <div class="row g-3">
                 <div class="col-md-4">
-                    <div class="card h-100" data-aos="fade-up">
+                    <div class="card h-100" data-aos="fade-right">
                         <img src="{{ asset('storage/images/2.jpg') }}" class="img-fluid w-100"
                             style="height:250px; object-fit:cover;" data-aos="fade-up" alt="">
                         <div class="card-body">
@@ -204,7 +159,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card h-100" data-aos="fade-up">
+                    <div class="card h-100" data-aos="fade-left">
                         <img src="{{ asset('storage/images/4.jpg') }}" class="img-fluid w-100"
                             style="height:250px; object-fit:cover;" data-aos="fade-up" alt="">
                         <div class="card-body">
