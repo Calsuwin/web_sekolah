@@ -10,6 +10,6 @@ class JurusanController extends Controller
     public function index()
     {
         $jurusans = Jurusan::all();
-        return view('Jurusan', compact('jurusans'));
+        return view('jurusan', compact('jurusans'));
     }
 }

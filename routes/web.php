@@ -1,16 +1,21 @@
 <?php
 
+use App\Http\Controllers\EskulController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\EkstrakurikulerController;
 use App\Http\Controllers\GuruController;
+use App\Http\Controllers\GaleriController;
 use App\Http\Controllers\JurusanController;
-use App\Http\Controllers\SiswaController;
+use App\Http\Controllers\ProfilController;
 
-Route::view('/', 'Beranda')->name('beranda');
-Route::view('/profil', 'Profil')->name('profil');
-
-// Ganti route berikut agar ambil data dari controller
-Route::get('/ekstrakurikuler', [EkstrakurikulerController::class, 'index'])->name('ekstrakurikuler');
+Route::view('/', 'index')->name('index');
 Route::get('/guru', [GuruController::class, 'index'])->name('guru');
+Route::get('/galeri', [GaleriController::class, 'index'])->name('galeri');
 Route::get('/jurusan', [JurusanController::class, 'index'])->name('jurusan');
-Route::get('/siswa', [SiswaController::class, 'index'])->name('siswa');
+Route::get('/eskul', [EskulController::class, 'index'])->name('eskul');
+Route::prefix('profil')->name('profil.')->group(function () {
+    Route::get('/', [ProfilController::class, 'index'])->name('index');
+    Route::get('/sejarah', [ProfilController::class, 'sejarah'])->name('sejarah');
+    Route::get('/visi-misi', [ProfilController::class, 'visiMisi'])->name('visi-misi');
+    Route::get('/data-pokok', [ProfilController::class, 'dataPokok'])->name('data-pokok');
+    Route::get('/data-statistik', [ProfilController::class, 'dataStatistik'])->name('data-statistik');
+});
