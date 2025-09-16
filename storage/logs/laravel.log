@@ -16293,3 +16293,946 @@ LINE 1: select * from \"eskuls\"
 #10 Command line code(1): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #11 {main}
 "} 
+[2025-09-16 09:32:47] local.ERROR: include(C:\laragon\www\azmi\web_sekolah\vendor\composer/../../app/Providers/AppServiceProvider.php): Failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): include(C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\composer/../../app/Providers/AppServiceProvider.php): Failed to open stream: No such file or directory at C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\composer\\ClassLoader.php:576)
+[stacktrace]
+#0 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(258): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'include(C:\\\\lara...', 'C:\\\\laragon\\\\www\\\\...', 576)
+#1 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\composer\\ClassLoader.php(576): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->{closure:Illuminate\\Foundation\\Bootstrap\\HandleExceptions::forwardsTo():257}(2, 'include(C:\\\\lara...', 'C:\\\\laragon\\\\www\\\\...', 576)
+#2 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\composer\\ClassLoader.php(576): include('C:\\\\laragon\\\\www\\\\...')
+#3 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\composer\\ClassLoader.php(427): {closure:Composer\\Autoload\\ClassLoader::initializeIncludeClosure():575}('C:\\\\laragon\\\\www\\\\...')
+#4 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Providers\\\\A...')
+#5 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(52): class_exists('App\\\\Providers\\\\A...')
+#6 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(34): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->mergeAdditionalProviders(Object(Illuminate\\Foundation\\Application))
+#7 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(342): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#8 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(474): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#9 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(196): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#10 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1235): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 C:\\laragon\\www\\azmi\\web_sekolah\\artisan(13): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#12 {main}
+"} 
+[2025-09-16 09:46:11] local.ERROR: There are no commands defined in the "filament" namespace. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"filament\" namespace. at C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\symfony\\console\\Application.php:677)
+[stacktrace]
+#0 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\symfony\\console\\Application.php(726): Symfony\\Component\\Console\\Application->findNamespace('filament')
+#1 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\symfony\\console\\Application.php(301): Symfony\\Component\\Console\\Application->find('filament:upgrad...')
+#2 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\symfony\\console\\Application.php(194): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(198): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1235): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 C:\\laragon\\www\\azmi\\web_sekolah\\artisan(13): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#6 {main}
+"} 
+[2025-09-16 10:18:11] local.ERROR: Class "App\Models\User" not found {"exception":"[object] (Error(code: 0): Class \"App\\Models\\User\" not found at C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\filament\\filament\\src\\Commands\\MakeUserCommand.php:116)
+[stacktrace]
+#0 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\filament\\filament\\src\\Commands\\MakeUserCommand.php(79): Filament\\Commands\\MakeUserCommand->createUser()
+#1 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Filament\\Commands\\MakeUserCommand->handle()
+#2 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(43): Illuminate\\Container\\BoundMethod::{closure:Illuminate\\Container\\BoundMethod::call():35}()
+#3 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(95): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#4 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#5 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(696): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#6 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(213): Illuminate\\Container\\Container->call(Array)
+#7 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\symfony\\console\\Command\\Command.php(318): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#8 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(182): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#9 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\symfony\\console\\Application.php(1110): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\symfony\\console\\Application.php(359): Symfony\\Component\\Console\\Application->doRunCommand(Object(Filament\\Commands\\MakeUserCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\symfony\\console\\Application.php(194): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(198): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1235): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 C:\\laragon\\www\\azmi\\web_sekolah\\artisan(13): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#15 {main}
+"} 
+[2025-09-16 10:21:09] local.ERROR: Class "App\Models\User" not found {"exception":"[object] (Error(code: 0): Class \"App\\Models\\User\" not found at C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\filament\\filament\\src\\Commands\\MakeUserCommand.php:116)
+[stacktrace]
+#0 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\filament\\filament\\src\\Commands\\MakeUserCommand.php(79): Filament\\Commands\\MakeUserCommand->createUser()
+#1 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Filament\\Commands\\MakeUserCommand->handle()
+#2 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(43): Illuminate\\Container\\BoundMethod::{closure:Illuminate\\Container\\BoundMethod::call():35}()
+#3 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(95): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#4 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#5 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(696): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#6 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(213): Illuminate\\Container\\Container->call(Array)
+#7 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\symfony\\console\\Command\\Command.php(318): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#8 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(182): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#9 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\symfony\\console\\Application.php(1110): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\symfony\\console\\Application.php(359): Symfony\\Component\\Console\\Application->doRunCommand(Object(Filament\\Commands\\MakeUserCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\symfony\\console\\Application.php(194): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(198): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1235): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 C:\\laragon\\www\\azmi\\web_sekolah\\artisan(13): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#15 {main}
+"} 
+[2025-09-16 10:21:31] local.ERROR: Command "make:filament-users" is not defined.
+
+Did you mean one of these?
+    make:cache-table
+    make:cast
+    make:channel
+    make:class
+    make:command
+    make:component
+    make:controller
+    make:custom-block
+    make:enum
+    make:event
+    make:exception
+    make:factory
+    make:filament-cluster
+    make:filament-custom-block
+    make:filament-entry
+    make:filament-exporter
+    make:filament-field
+    make:filament-form
+    make:filament-form-field
+    make:filament-importer
+    make:filament-infolist
+    make:filament-infolist-entry
+    make:filament-infolist-schema
+    make:filament-issue
+    make:filament-layout
+    make:filament-livewire-form
+    make:filament-livewire-schema
+    make:filament-livewire-table
+    make:filament-page
+    make:filament-panel
+    make:filament-relation-manager
+    make:filament-resource
+    make:filament-rich-content-custom-block
+    make:filament-rich-editor-custom-block
+    make:filament-schema
+    make:filament-schema-component
+    make:filament-schema-layout
+    make:filament-table
+    make:filament-table-column
+    make:filament-theme
+    make:filament-user
+    make:filament-widget
+    make:form-field
+    make:form-layout
+    make:infolist-entry
+    make:infolist-layout
+    make:infolist-schema
+    make:interface
+    make:job
+    make:job-middleware
+    make:listener
+    make:livewire
+    make:livewire-form
+    make:livewire-schema
+    make:livewire-table
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:notifications-table
+    make:observer
+    make:policy
+    make:provider
+    make:queue-batches-table
+    make:queue-failed-table
+    make:queue-table
+    make:request
+    make:resource
+    make:rich-content-custom-block
+    make:rich-editor-custom-block
+    make:rule
+    make:scope
+    make:seeder
+    make:session-table
+    make:table-column
+    make:test
+    make:trait
+    make:view {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:filament-users\" is not defined.
+
+Did you mean one of these?
+    make:cache-table
+    make:cast
+    make:channel
+    make:class
+    make:command
+    make:component
+    make:controller
+    make:custom-block
+    make:enum
+    make:event
+    make:exception
+    make:factory
+    make:filament-cluster
+    make:filament-custom-block
+    make:filament-entry
+    make:filament-exporter
+    make:filament-field
+    make:filament-form
+    make:filament-form-field
+    make:filament-importer
+    make:filament-infolist
+    make:filament-infolist-entry
+    make:filament-infolist-schema
+    make:filament-issue
+    make:filament-layout
+    make:filament-livewire-form
+    make:filament-livewire-schema
+    make:filament-livewire-table
+    make:filament-page
+    make:filament-panel
+    make:filament-relation-manager
+    make:filament-resource
+    make:filament-rich-content-custom-block
+    make:filament-rich-editor-custom-block
+    make:filament-schema
+    make:filament-schema-component
+    make:filament-schema-layout
+    make:filament-table
+    make:filament-table-column
+    make:filament-theme
+    make:filament-user
+    make:filament-widget
+    make:form-field
+    make:form-layout
+    make:infolist-entry
+    make:infolist-layout
+    make:infolist-schema
+    make:interface
+    make:job
+    make:job-middleware
+    make:listener
+    make:livewire
+    make:livewire-form
+    make:livewire-schema
+    make:livewire-table
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:notifications-table
+    make:observer
+    make:policy
+    make:provider
+    make:queue-batches-table
+    make:queue-failed-table
+    make:queue-table
+    make:request
+    make:resource
+    make:rich-content-custom-block
+    make:rich-editor-custom-block
+    make:rule
+    make:scope
+    make:seeder
+    make:session-table
+    make:table-column
+    make:test
+    make:trait
+    make:view at C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\symfony\\console\\Application.php:743)
+[stacktrace]
+#0 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\symfony\\console\\Application.php(301): Symfony\\Component\\Console\\Application->find('make:filament-u...')
+#1 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\symfony\\console\\Application.php(194): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(198): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1235): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\laragon\\www\\azmi\\web_sekolah\\artisan(13): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#5 {main}
+"} 
+[2025-09-16 12:49:22] local.ERROR: View [home] not found. {"userId":1,"exception":"[object] (InvalidArgumentException(code: 0): View [home] not found. at C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php:139)
+[stacktrace]
+#0 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php(79): Illuminate\\View\\FileViewFinder->findInPaths('home', Array)
+#1 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Factory.php(151): Illuminate\\View\\FileViewFinder->find('home')
+#2 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(1062): Illuminate\\View\\Factory->make('home', Array, Array)
+#3 C:\\laragon\\www\\azmi\\web_sekolah\\app\\Http\\Controllers\\HomeController.php(13): view('home', Array)
+#4 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(47): App\\Http\\Controllers\\HomeController->index()
+#5 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(266): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\HomeController), 'index')
+#6 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(212): Illuminate\\Routing\\Route->runController()
+#7 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(808): Illuminate\\Routing\\Route->run()
+#8 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(170): Illuminate\\Routing\\Router->{closure:Illuminate\\Routing\\Router::runRouteWithinStack():807}(Object(Illuminate\\Http\\Request))
+#9 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(51): Illuminate\\Pipeline\\Pipeline->{closure:Illuminate\\Pipeline\\Pipeline::prepareDestination():168}(Object(Illuminate\\Http\\Request))
+#10 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#11 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(88): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#12 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#13 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#14 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#15 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#16 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#17 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#18 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#19 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(75): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#21 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(127): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#23 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(807): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#24 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(786): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#25 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(750): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#26 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(739): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#27 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(201): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#28 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(170): Illuminate\\Foundation\\Http\\Kernel->{closure:Illuminate\\Foundation\\Http\\Kernel::dispatchToRouter():198}(Object(Illuminate\\Http\\Request))
+#29 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\Features\\SupportDisablingBackButtonCache\\DisableBackButtonCacheMiddleware.php(19): Illuminate\\Pipeline\\Pipeline->{closure:Illuminate\\Pipeline\\Pipeline::prepareDestination():168}(Object(Illuminate\\Http\\Request))
+#30 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Livewire\\Features\\SupportDisablingBackButtonCache\\DisableBackButtonCacheMiddleware->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#32 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#34 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#35 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#36 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#37 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#38 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#39 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(110): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#40 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#42 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#44 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#45 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks.php(22): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#46 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#47 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(127): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#48 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(176): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#49 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(145): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#50 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1220): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#51 C:\\laragon\\www\\azmi\\web_sekolah\\public\\index.php(17): Illuminate\\Foundation\\Application->handleRequest(Object(Illuminate\\Http\\Request))
+#52 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(23): require_once('C:\\\\laragon\\\\www\\\\...')
+#53 {main}
+"} 
+[2025-09-16 12:50:41] local.ERROR: Route [index] not defined. {"view":{"view":"C:\\laragon\\www\\azmi\\web_sekolah\\resources\\views\\layouts\\header.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-2028823012 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#1623</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
+</samp>}
+</pre><script>Sfdump(\"sf-dump-2028823012\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","carousels":"<pre class=sf-dump id=sf-dump-1084657887 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Database\\Eloquent\\Collection</span> {<a class=sf-dump-ref>#2903</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">items</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">escapeWhenCastingToString</span>: <span class=sf-dump-const>false</span>
+</samp>}
+</pre><script>Sfdump(\"sf-dump-1084657887\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","statistics":"<pre class=sf-dump id=sf-dump-2066898128 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Database\\Eloquent\\Collection</span> {<a class=sf-dump-ref>#2901</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">items</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">escapeWhenCastingToString</span>: <span class=sf-dump-const>false</span>
+</samp>}
+</pre><script>Sfdump(\"sf-dump-2066898128\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","articles":"<pre class=sf-dump id=sf-dump-275844183 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Database\\Eloquent\\Collection</span> {<a class=sf-dump-ref>#2908</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">items</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">escapeWhenCastingToString</span>: <span class=sf-dump-const>false</span>
+</samp>}
+</pre><script>Sfdump(\"sf-dump-275844183\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+"}},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Route [index] not defined. at C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:517)
+[stacktrace]
+#0 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(853): Illuminate\\Routing\\UrlGenerator->route('index', Array, true)
+#1 C:\\laragon\\www\\azmi\\web_sekolah\\resources\\views\\layouts\\header.blade.php(21): route('index')
+#2 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(123): require('C:\\\\laragon\\\\www\\\\...')
+#3 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::{closure:Illuminate\\Filesystem\\Filesystem::getRequire():120}()
+#4 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\laragon\\\\www\\\\...', Array)
+#5 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(22): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
+#6 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(75): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
+#7 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(10): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
+#8 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(209): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
+#9 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(192): Illuminate\\View\\View->getContents()
+#10 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(161): Illuminate\\View\\View->renderContents()
+#11 C:\\laragon\\www\\azmi\\web_sekolah\\resources\\views\\layouts\\app.blade.php(17): Illuminate\\View\\View->render()
+#12 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(123): require('C:\\\\laragon\\\\www\\\\...')
+#13 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::{closure:Illuminate\\Filesystem\\Filesystem::getRequire():120}()
+#14 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\laragon\\\\www\\\\...', Array)
+#15 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(22): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
+#16 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(75): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
+#17 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(10): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
+#18 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(209): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
+#19 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(192): Illuminate\\View\\View->getContents()
+#20 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(161): Illuminate\\View\\View->renderContents()
+#21 C:\\laragon\\www\\azmi\\web_sekolah\\resources\\views\\home.blade.php(423): Illuminate\\View\\View->render()
+#22 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(123): require('C:\\\\laragon\\\\www\\\\...')
+#23 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::{closure:Illuminate\\Filesystem\\Filesystem::getRequire():120}()
+#24 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\laragon\\\\www\\\\...', Array)
+#25 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(22): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
+#26 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(75): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
+#27 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(10): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
+#28 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(209): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
+#29 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(192): Illuminate\\View\\View->getContents()
+#30 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(161): Illuminate\\View\\View->renderContents()
+#31 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(79): Illuminate\\View\\View->render()
+#32 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(35): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#33 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(920): Illuminate\\Http\\Response->__construct(Object(Illuminate\\View\\View), 200, Array)
+#34 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(887): Illuminate\\Routing\\Router::toResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#35 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(807): Illuminate\\Routing\\Router->prepareResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#36 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(170): Illuminate\\Routing\\Router->{closure:Illuminate\\Routing\\Router::runRouteWithinStack():807}(Object(Illuminate\\Http\\Request))
+#37 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(51): Illuminate\\Pipeline\\Pipeline->{closure:Illuminate\\Pipeline\\Pipeline::prepareDestination():168}(Object(Illuminate\\Http\\Request))
+#38 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#39 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(88): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#40 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#42 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#44 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#45 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#47 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(75): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#49 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(127): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#51 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(807): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#52 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(786): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#53 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(750): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#54 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(739): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#55 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(201): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#56 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(170): Illuminate\\Foundation\\Http\\Kernel->{closure:Illuminate\\Foundation\\Http\\Kernel::dispatchToRouter():198}(Object(Illuminate\\Http\\Request))
+#57 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\Features\\SupportDisablingBackButtonCache\\DisableBackButtonCacheMiddleware.php(19): Illuminate\\Pipeline\\Pipeline->{closure:Illuminate\\Pipeline\\Pipeline::prepareDestination():168}(Object(Illuminate\\Http\\Request))
+#58 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Livewire\\Features\\SupportDisablingBackButtonCache\\DisableBackButtonCacheMiddleware->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#59 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#60 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#61 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#62 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#63 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#64 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#65 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#66 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#67 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(110): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#68 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#69 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#70 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#71 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#72 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#73 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks.php(22): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#74 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#75 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(127): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#76 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(176): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#77 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(145): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#78 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1220): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#79 C:\\laragon\\www\\azmi\\web_sekolah\\public\\index.php(17): Illuminate\\Foundation\\Application->handleRequest(Object(Illuminate\\Http\\Request))
+#80 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(23): require_once('C:\\\\laragon\\\\www\\\\...')
+#81 {main}
+
+[previous exception] [object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [index] not defined. at C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:517)
+[stacktrace]
+#0 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(853): Illuminate\\Routing\\UrlGenerator->route('index', Array, true)
+#1 C:\\laragon\\www\\azmi\\web_sekolah\\storage\\framework\\views\\e43ce1aa50dda737be7bde9ee9730488.php(21): route('index')
+#2 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(123): require('C:\\\\laragon\\\\www\\\\...')
+#3 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::{closure:Illuminate\\Filesystem\\Filesystem::getRequire():120}()
+#4 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\laragon\\\\www\\\\...', Array)
+#5 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(22): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
+#6 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(75): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
+#7 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(10): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
+#8 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(209): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
+#9 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(192): Illuminate\\View\\View->getContents()
+#10 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(161): Illuminate\\View\\View->renderContents()
+#11 C:\\laragon\\www\\azmi\\web_sekolah\\storage\\framework\\views\\5b7022b28d152df66ca0204800851edf.php(17): Illuminate\\View\\View->render()
+#12 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(123): require('C:\\\\laragon\\\\www\\\\...')
+#13 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::{closure:Illuminate\\Filesystem\\Filesystem::getRequire():120}()
+#14 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\laragon\\\\www\\\\...', Array)
+#15 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(22): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
+#16 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(75): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
+#17 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(10): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
+#18 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(209): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
+#19 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(192): Illuminate\\View\\View->getContents()
+#20 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(161): Illuminate\\View\\View->renderContents()
+#21 C:\\laragon\\www\\azmi\\web_sekolah\\storage\\framework\\views\\79eb0264d5e4cbcb12eefcbbff5e98d4.php(423): Illuminate\\View\\View->render()
+#22 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(123): require('C:\\\\laragon\\\\www\\\\...')
+#23 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::{closure:Illuminate\\Filesystem\\Filesystem::getRequire():120}()
+#24 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\laragon\\\\www\\\\...', Array)
+#25 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(22): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
+#26 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(75): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
+#27 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(10): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
+#28 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(209): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
+#29 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(192): Illuminate\\View\\View->getContents()
+#30 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(161): Illuminate\\View\\View->renderContents()
+#31 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(79): Illuminate\\View\\View->render()
+#32 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(35): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#33 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(920): Illuminate\\Http\\Response->__construct(Object(Illuminate\\View\\View), 200, Array)
+#34 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(887): Illuminate\\Routing\\Router::toResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#35 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(807): Illuminate\\Routing\\Router->prepareResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#36 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(170): Illuminate\\Routing\\Router->{closure:Illuminate\\Routing\\Router::runRouteWithinStack():807}(Object(Illuminate\\Http\\Request))
+#37 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(51): Illuminate\\Pipeline\\Pipeline->{closure:Illuminate\\Pipeline\\Pipeline::prepareDestination():168}(Object(Illuminate\\Http\\Request))
+#38 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#39 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(88): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#40 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#42 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#44 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#45 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#47 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(75): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#49 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(127): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#51 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(807): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#52 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(786): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#53 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(750): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#54 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(739): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#55 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(201): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#56 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(170): Illuminate\\Foundation\\Http\\Kernel->{closure:Illuminate\\Foundation\\Http\\Kernel::dispatchToRouter():198}(Object(Illuminate\\Http\\Request))
+#57 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\Features\\SupportDisablingBackButtonCache\\DisableBackButtonCacheMiddleware.php(19): Illuminate\\Pipeline\\Pipeline->{closure:Illuminate\\Pipeline\\Pipeline::prepareDestination():168}(Object(Illuminate\\Http\\Request))
+#58 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Livewire\\Features\\SupportDisablingBackButtonCache\\DisableBackButtonCacheMiddleware->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#59 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#60 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#61 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#62 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#63 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#64 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#65 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#66 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#67 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(110): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#68 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#69 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#70 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#71 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#72 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#73 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks.php(22): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#74 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#75 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(127): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#76 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(176): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#77 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(145): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#78 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1220): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#79 C:\\laragon\\www\\azmi\\web_sekolah\\public\\index.php(17): Illuminate\\Foundation\\Application->handleRequest(Object(Illuminate\\Http\\Request))
+#80 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(23): require_once('C:\\\\laragon\\\\www\\\\...')
+#81 {main}
+"} 
+[2025-09-16 12:51:27] local.ERROR: Route [home] not defined. {"view":{"view":"C:\\laragon\\www\\azmi\\web_sekolah\\resources\\views\\layouts\\header.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-2118176662 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#1623</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
+</samp>}
+</pre><script>Sfdump(\"sf-dump-2118176662\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","carousels":"<pre class=sf-dump id=sf-dump-31146720 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Database\\Eloquent\\Collection</span> {<a class=sf-dump-ref>#2903</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">items</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">escapeWhenCastingToString</span>: <span class=sf-dump-const>false</span>
+</samp>}
+</pre><script>Sfdump(\"sf-dump-31146720\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","statistics":"<pre class=sf-dump id=sf-dump-1562263694 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Database\\Eloquent\\Collection</span> {<a class=sf-dump-ref>#2901</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">items</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">escapeWhenCastingToString</span>: <span class=sf-dump-const>false</span>
+</samp>}
+</pre><script>Sfdump(\"sf-dump-1562263694\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","articles":"<pre class=sf-dump id=sf-dump-1702392488 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Database\\Eloquent\\Collection</span> {<a class=sf-dump-ref>#2908</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">items</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">escapeWhenCastingToString</span>: <span class=sf-dump-const>false</span>
+</samp>}
+</pre><script>Sfdump(\"sf-dump-1702392488\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+"}},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Route [home] not defined. at C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:517)
+[stacktrace]
+#0 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(853): Illuminate\\Routing\\UrlGenerator->route('home', Array, true)
+#1 C:\\laragon\\www\\azmi\\web_sekolah\\resources\\views\\layouts\\header.blade.php(21): route('home')
+#2 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(123): require('C:\\\\laragon\\\\www\\\\...')
+#3 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::{closure:Illuminate\\Filesystem\\Filesystem::getRequire():120}()
+#4 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\laragon\\\\www\\\\...', Array)
+#5 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(22): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
+#6 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(75): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
+#7 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(10): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
+#8 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(209): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
+#9 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(192): Illuminate\\View\\View->getContents()
+#10 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(161): Illuminate\\View\\View->renderContents()
+#11 C:\\laragon\\www\\azmi\\web_sekolah\\resources\\views\\layouts\\app.blade.php(17): Illuminate\\View\\View->render()
+#12 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(123): require('C:\\\\laragon\\\\www\\\\...')
+#13 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::{closure:Illuminate\\Filesystem\\Filesystem::getRequire():120}()
+#14 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\laragon\\\\www\\\\...', Array)
+#15 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(22): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
+#16 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(75): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
+#17 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(10): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
+#18 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(209): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
+#19 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(192): Illuminate\\View\\View->getContents()
+#20 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(161): Illuminate\\View\\View->renderContents()
+#21 C:\\laragon\\www\\azmi\\web_sekolah\\resources\\views\\home.blade.php(423): Illuminate\\View\\View->render()
+#22 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(123): require('C:\\\\laragon\\\\www\\\\...')
+#23 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::{closure:Illuminate\\Filesystem\\Filesystem::getRequire():120}()
+#24 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\laragon\\\\www\\\\...', Array)
+#25 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(22): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
+#26 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(75): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
+#27 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(10): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
+#28 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(209): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
+#29 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(192): Illuminate\\View\\View->getContents()
+#30 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(161): Illuminate\\View\\View->renderContents()
+#31 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(79): Illuminate\\View\\View->render()
+#32 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(35): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#33 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(920): Illuminate\\Http\\Response->__construct(Object(Illuminate\\View\\View), 200, Array)
+#34 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(887): Illuminate\\Routing\\Router::toResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#35 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(807): Illuminate\\Routing\\Router->prepareResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#36 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(170): Illuminate\\Routing\\Router->{closure:Illuminate\\Routing\\Router::runRouteWithinStack():807}(Object(Illuminate\\Http\\Request))
+#37 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(51): Illuminate\\Pipeline\\Pipeline->{closure:Illuminate\\Pipeline\\Pipeline::prepareDestination():168}(Object(Illuminate\\Http\\Request))
+#38 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#39 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(88): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#40 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#42 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#44 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#45 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#47 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(75): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#49 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(127): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#51 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(807): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#52 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(786): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#53 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(750): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#54 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(739): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#55 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(201): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#56 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(170): Illuminate\\Foundation\\Http\\Kernel->{closure:Illuminate\\Foundation\\Http\\Kernel::dispatchToRouter():198}(Object(Illuminate\\Http\\Request))
+#57 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\Features\\SupportDisablingBackButtonCache\\DisableBackButtonCacheMiddleware.php(19): Illuminate\\Pipeline\\Pipeline->{closure:Illuminate\\Pipeline\\Pipeline::prepareDestination():168}(Object(Illuminate\\Http\\Request))
+#58 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Livewire\\Features\\SupportDisablingBackButtonCache\\DisableBackButtonCacheMiddleware->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#59 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#60 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#61 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#62 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#63 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#64 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#65 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#66 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#67 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(110): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#68 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#69 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#70 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#71 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#72 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#73 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks.php(22): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#74 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#75 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(127): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#76 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(176): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#77 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(145): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#78 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1220): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#79 C:\\laragon\\www\\azmi\\web_sekolah\\public\\index.php(17): Illuminate\\Foundation\\Application->handleRequest(Object(Illuminate\\Http\\Request))
+#80 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(23): require_once('C:\\\\laragon\\\\www\\\\...')
+#81 {main}
+
+[previous exception] [object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [home] not defined. at C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:517)
+[stacktrace]
+#0 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(853): Illuminate\\Routing\\UrlGenerator->route('home', Array, true)
+#1 C:\\laragon\\www\\azmi\\web_sekolah\\storage\\framework\\views\\e43ce1aa50dda737be7bde9ee9730488.php(21): route('home')
+#2 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(123): require('C:\\\\laragon\\\\www\\\\...')
+#3 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::{closure:Illuminate\\Filesystem\\Filesystem::getRequire():120}()
+#4 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\laragon\\\\www\\\\...', Array)
+#5 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(22): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
+#6 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(75): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
+#7 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(10): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
+#8 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(209): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
+#9 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(192): Illuminate\\View\\View->getContents()
+#10 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(161): Illuminate\\View\\View->renderContents()
+#11 C:\\laragon\\www\\azmi\\web_sekolah\\storage\\framework\\views\\5b7022b28d152df66ca0204800851edf.php(17): Illuminate\\View\\View->render()
+#12 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(123): require('C:\\\\laragon\\\\www\\\\...')
+#13 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::{closure:Illuminate\\Filesystem\\Filesystem::getRequire():120}()
+#14 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\laragon\\\\www\\\\...', Array)
+#15 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(22): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
+#16 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(75): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
+#17 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(10): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
+#18 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(209): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
+#19 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(192): Illuminate\\View\\View->getContents()
+#20 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(161): Illuminate\\View\\View->renderContents()
+#21 C:\\laragon\\www\\azmi\\web_sekolah\\storage\\framework\\views\\79eb0264d5e4cbcb12eefcbbff5e98d4.php(423): Illuminate\\View\\View->render()
+#22 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(123): require('C:\\\\laragon\\\\www\\\\...')
+#23 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::{closure:Illuminate\\Filesystem\\Filesystem::getRequire():120}()
+#24 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\laragon\\\\www\\\\...', Array)
+#25 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(22): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
+#26 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(75): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
+#27 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(10): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
+#28 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(209): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
+#29 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(192): Illuminate\\View\\View->getContents()
+#30 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(161): Illuminate\\View\\View->renderContents()
+#31 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(79): Illuminate\\View\\View->render()
+#32 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(35): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#33 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(920): Illuminate\\Http\\Response->__construct(Object(Illuminate\\View\\View), 200, Array)
+#34 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(887): Illuminate\\Routing\\Router::toResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#35 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(807): Illuminate\\Routing\\Router->prepareResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#36 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(170): Illuminate\\Routing\\Router->{closure:Illuminate\\Routing\\Router::runRouteWithinStack():807}(Object(Illuminate\\Http\\Request))
+#37 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(51): Illuminate\\Pipeline\\Pipeline->{closure:Illuminate\\Pipeline\\Pipeline::prepareDestination():168}(Object(Illuminate\\Http\\Request))
+#38 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#39 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(88): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#40 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#42 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#44 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#45 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#47 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(75): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#49 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(127): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#51 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(807): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#52 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(786): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#53 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(750): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#54 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(739): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#55 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(201): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#56 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(170): Illuminate\\Foundation\\Http\\Kernel->{closure:Illuminate\\Foundation\\Http\\Kernel::dispatchToRouter():198}(Object(Illuminate\\Http\\Request))
+#57 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\Features\\SupportDisablingBackButtonCache\\DisableBackButtonCacheMiddleware.php(19): Illuminate\\Pipeline\\Pipeline->{closure:Illuminate\\Pipeline\\Pipeline::prepareDestination():168}(Object(Illuminate\\Http\\Request))
+#58 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Livewire\\Features\\SupportDisablingBackButtonCache\\DisableBackButtonCacheMiddleware->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#59 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#60 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#61 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#62 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#63 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#64 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#65 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#66 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#67 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(110): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#68 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#69 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#70 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#71 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#72 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#73 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks.php(22): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#74 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#75 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(127): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#76 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(176): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#77 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(145): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#78 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1220): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#79 C:\\laragon\\www\\azmi\\web_sekolah\\public\\index.php(17): Illuminate\\Foundation\\Application->handleRequest(Object(Illuminate\\Http\\Request))
+#80 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(23): require_once('C:\\\\laragon\\\\www\\\\...')
+#81 {main}
+"} 
+[2025-09-16 12:54:06] local.ERROR: Route [index] not defined. {"view":{"view":"C:\\laragon\\www\\azmi\\web_sekolah\\resources\\views\\layouts\\header.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-271893601 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#1623</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
+</samp>}
+</pre><script>Sfdump(\"sf-dump-271893601\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","carousels":"<pre class=sf-dump id=sf-dump-1949828809 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Database\\Eloquent\\Collection</span> {<a class=sf-dump-ref>#2903</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">items</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">escapeWhenCastingToString</span>: <span class=sf-dump-const>false</span>
+</samp>}
+</pre><script>Sfdump(\"sf-dump-1949828809\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","statistics":"<pre class=sf-dump id=sf-dump-1969600580 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Database\\Eloquent\\Collection</span> {<a class=sf-dump-ref>#2901</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">items</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">escapeWhenCastingToString</span>: <span class=sf-dump-const>false</span>
+</samp>}
+</pre><script>Sfdump(\"sf-dump-1969600580\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","articles":"<pre class=sf-dump id=sf-dump-1591729233 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Database\\Eloquent\\Collection</span> {<a class=sf-dump-ref>#2908</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">items</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">escapeWhenCastingToString</span>: <span class=sf-dump-const>false</span>
+</samp>}
+</pre><script>Sfdump(\"sf-dump-1591729233\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+"}},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Route [index] not defined. at C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:517)
+[stacktrace]
+#0 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(853): Illuminate\\Routing\\UrlGenerator->route('index', Array, true)
+#1 C:\\laragon\\www\\azmi\\web_sekolah\\resources\\views\\layouts\\header.blade.php(21): route('index')
+#2 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(123): require('C:\\\\laragon\\\\www\\\\...')
+#3 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::{closure:Illuminate\\Filesystem\\Filesystem::getRequire():120}()
+#4 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\laragon\\\\www\\\\...', Array)
+#5 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(22): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
+#6 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(75): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
+#7 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(10): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
+#8 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(209): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
+#9 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(192): Illuminate\\View\\View->getContents()
+#10 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(161): Illuminate\\View\\View->renderContents()
+#11 C:\\laragon\\www\\azmi\\web_sekolah\\resources\\views\\layouts\\app.blade.php(17): Illuminate\\View\\View->render()
+#12 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(123): require('C:\\\\laragon\\\\www\\\\...')
+#13 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::{closure:Illuminate\\Filesystem\\Filesystem::getRequire():120}()
+#14 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\laragon\\\\www\\\\...', Array)
+#15 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(22): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
+#16 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(75): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
+#17 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(10): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
+#18 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(209): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
+#19 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(192): Illuminate\\View\\View->getContents()
+#20 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(161): Illuminate\\View\\View->renderContents()
+#21 C:\\laragon\\www\\azmi\\web_sekolah\\resources\\views\\index.blade.php(423): Illuminate\\View\\View->render()
+#22 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(123): require('C:\\\\laragon\\\\www\\\\...')
+#23 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::{closure:Illuminate\\Filesystem\\Filesystem::getRequire():120}()
+#24 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\laragon\\\\www\\\\...', Array)
+#25 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(22): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
+#26 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(75): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
+#27 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(10): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
+#28 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(209): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
+#29 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(192): Illuminate\\View\\View->getContents()
+#30 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(161): Illuminate\\View\\View->renderContents()
+#31 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(79): Illuminate\\View\\View->render()
+#32 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(35): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#33 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(920): Illuminate\\Http\\Response->__construct(Object(Illuminate\\View\\View), 200, Array)
+#34 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(887): Illuminate\\Routing\\Router::toResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#35 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(807): Illuminate\\Routing\\Router->prepareResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#36 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(170): Illuminate\\Routing\\Router->{closure:Illuminate\\Routing\\Router::runRouteWithinStack():807}(Object(Illuminate\\Http\\Request))
+#37 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(51): Illuminate\\Pipeline\\Pipeline->{closure:Illuminate\\Pipeline\\Pipeline::prepareDestination():168}(Object(Illuminate\\Http\\Request))
+#38 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#39 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(88): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#40 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#42 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#44 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#45 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#47 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(75): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#49 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(127): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#51 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(807): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#52 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(786): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#53 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(750): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#54 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(739): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#55 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(201): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#56 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(170): Illuminate\\Foundation\\Http\\Kernel->{closure:Illuminate\\Foundation\\Http\\Kernel::dispatchToRouter():198}(Object(Illuminate\\Http\\Request))
+#57 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\Features\\SupportDisablingBackButtonCache\\DisableBackButtonCacheMiddleware.php(19): Illuminate\\Pipeline\\Pipeline->{closure:Illuminate\\Pipeline\\Pipeline::prepareDestination():168}(Object(Illuminate\\Http\\Request))
+#58 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Livewire\\Features\\SupportDisablingBackButtonCache\\DisableBackButtonCacheMiddleware->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#59 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#60 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#61 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#62 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#63 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#64 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#65 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#66 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#67 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(110): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#68 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#69 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#70 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#71 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#72 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#73 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks.php(22): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#74 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#75 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(127): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#76 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(176): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#77 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(145): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#78 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1220): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#79 C:\\laragon\\www\\azmi\\web_sekolah\\public\\index.php(17): Illuminate\\Foundation\\Application->handleRequest(Object(Illuminate\\Http\\Request))
+#80 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(23): require_once('C:\\\\laragon\\\\www\\\\...')
+#81 {main}
+
+[previous exception] [object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [index] not defined. at C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:517)
+[stacktrace]
+#0 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(853): Illuminate\\Routing\\UrlGenerator->route('index', Array, true)
+#1 C:\\laragon\\www\\azmi\\web_sekolah\\storage\\framework\\views\\e43ce1aa50dda737be7bde9ee9730488.php(21): route('index')
+#2 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(123): require('C:\\\\laragon\\\\www\\\\...')
+#3 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::{closure:Illuminate\\Filesystem\\Filesystem::getRequire():120}()
+#4 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\laragon\\\\www\\\\...', Array)
+#5 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(22): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
+#6 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(75): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
+#7 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(10): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
+#8 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(209): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
+#9 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(192): Illuminate\\View\\View->getContents()
+#10 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(161): Illuminate\\View\\View->renderContents()
+#11 C:\\laragon\\www\\azmi\\web_sekolah\\storage\\framework\\views\\5b7022b28d152df66ca0204800851edf.php(17): Illuminate\\View\\View->render()
+#12 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(123): require('C:\\\\laragon\\\\www\\\\...')
+#13 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::{closure:Illuminate\\Filesystem\\Filesystem::getRequire():120}()
+#14 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\laragon\\\\www\\\\...', Array)
+#15 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(22): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
+#16 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(75): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
+#17 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(10): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
+#18 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(209): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
+#19 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(192): Illuminate\\View\\View->getContents()
+#20 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(161): Illuminate\\View\\View->renderContents()
+#21 C:\\laragon\\www\\azmi\\web_sekolah\\storage\\framework\\views\\3a38b280bd9df23f50381df934544f89.php(423): Illuminate\\View\\View->render()
+#22 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(123): require('C:\\\\laragon\\\\www\\\\...')
+#23 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::{closure:Illuminate\\Filesystem\\Filesystem::getRequire():120}()
+#24 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\laragon\\\\www\\\\...', Array)
+#25 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(22): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
+#26 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(75): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->evaluatePath('C:\\\\laragon\\\\www\\\\...', Array)
+#27 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine.php(10): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
+#28 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(209): Livewire\\Mechanisms\\ExtendBlade\\ExtendedCompilerEngine->get('C:\\\\laragon\\\\www\\\\...', Array)
+#29 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(192): Illuminate\\View\\View->getContents()
+#30 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(161): Illuminate\\View\\View->renderContents()
+#31 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(79): Illuminate\\View\\View->render()
+#32 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(35): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#33 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(920): Illuminate\\Http\\Response->__construct(Object(Illuminate\\View\\View), 200, Array)
+#34 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(887): Illuminate\\Routing\\Router::toResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#35 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(807): Illuminate\\Routing\\Router->prepareResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#36 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(170): Illuminate\\Routing\\Router->{closure:Illuminate\\Routing\\Router::runRouteWithinStack():807}(Object(Illuminate\\Http\\Request))
+#37 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(51): Illuminate\\Pipeline\\Pipeline->{closure:Illuminate\\Pipeline\\Pipeline::prepareDestination():168}(Object(Illuminate\\Http\\Request))
+#38 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#39 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(88): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#40 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#42 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#44 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#45 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#47 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(75): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#49 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(127): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#51 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(807): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#52 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(786): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#53 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(750): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#54 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(739): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#55 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(201): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#56 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(170): Illuminate\\Foundation\\Http\\Kernel->{closure:Illuminate\\Foundation\\Http\\Kernel::dispatchToRouter():198}(Object(Illuminate\\Http\\Request))
+#57 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\Features\\SupportDisablingBackButtonCache\\DisableBackButtonCacheMiddleware.php(19): Illuminate\\Pipeline\\Pipeline->{closure:Illuminate\\Pipeline\\Pipeline::prepareDestination():168}(Object(Illuminate\\Http\\Request))
+#58 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Livewire\\Features\\SupportDisablingBackButtonCache\\DisableBackButtonCacheMiddleware->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#59 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#60 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#61 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#62 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#63 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#64 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#65 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#66 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#67 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(110): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#68 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#69 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#70 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#71 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#72 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#73 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks.php(22): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#74 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#75 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(127): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#76 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(176): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#77 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(145): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#78 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1220): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#79 C:\\laragon\\www\\azmi\\web_sekolah\\public\\index.php(17): Illuminate\\Foundation\\Application->handleRequest(Object(Illuminate\\Http\\Request))
+#80 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(23): require_once('C:\\\\laragon\\\\www\\\\...')
+#81 {main}
+"} 
+[2025-09-16 14:19:14] local.ERROR: Method Filament\Tables\Columns\ImageColumn::directory does not exist. {"userId":1,"exception":"[object] (BadMethodCallException(code: 0): Method Filament\\Tables\\Columns\\ImageColumn::directory does not exist. at C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\filament\\support\\src\\Concerns\\Macroable.php:77)
+[stacktrace]
+#0 C:\\laragon\\www\\azmi\\web_sekolah\\app\\Filament\\Resources\\Carousels\\Tables\\CarouselsTable.php(20): Filament\\Support\\Components\\Component->__call('directory', Array)
+#1 C:\\laragon\\www\\azmi\\web_sekolah\\app\\Filament\\Resources\\Carousels\\CarouselResource.php(32): App\\Filament\\Resources\\Carousels\\Tables\\CarouselsTable::configure(Object(Filament\\Tables\\Table))
+#2 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\filament\\filament\\src\\Resources\\Resource.php(64): App\\Filament\\Resources\\Carousels\\CarouselResource::table(Object(Filament\\Tables\\Table))
+#3 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\filament\\filament\\src\\Resources\\Pages\\ListRecords.php(196): Filament\\Resources\\Resource::configureTable(Object(Filament\\Tables\\Table))
+#4 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\filament\\tables\\src\\Concerns\\InteractsWithTable.php(46): Filament\\Resources\\Pages\\ListRecords->makeTable()
+#5 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): Filament\\Resources\\Pages\\ListRecords->bootedInteractsWithTable()
+#6 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(43): Illuminate\\Container\\BoundMethod::{closure:Illuminate\\Container\\BoundMethod::call():35}()
+#7 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(95): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#8 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#9 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\Wrapped.php(23): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array)
+#10 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\Features\\SupportLifecycleHooks\\SupportLifecycleHooks.php(144): Livewire\\Wrapped->__call('bootedInteracts...', Array)
+#11 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\Features\\SupportLifecycleHooks\\SupportLifecycleHooks.php(24): Livewire\\Features\\SupportLifecycleHooks\\SupportLifecycleHooks->callTraitHook('booted')
+#12 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\ComponentHook.php(19): Livewire\\Features\\SupportLifecycleHooks\\SupportLifecycleHooks->mount(Array, false)
+#13 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\ComponentHookRegistry.php(45): Livewire\\ComponentHook->callMount(Array, false)
+#14 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\EventBus.php(60): Livewire\\ComponentHookRegistry::{closure:Livewire\\ComponentHookRegistry::boot():39}(Object(App\\Filament\\Resources\\Carousels\\Pages\\ListCarousels), Array, NULL, false)
+#15 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\helpers.php(98): Livewire\\EventBus->trigger('mount', Object(App\\Filament\\Resources\\Carousels\\Pages\\ListCarousels), Array, NULL, false)
+#16 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\Mechanisms\\HandleComponents\\HandleComponents.php(50): Livewire\\trigger('mount', Object(App\\Filament\\Resources\\Carousels\\Pages\\ListCarousels), Array, NULL, false)
+#17 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\LivewireManager.php(73): Livewire\\Mechanisms\\HandleComponents\\HandleComponents->mount('App\\\\Filament\\\\Re...', Array, NULL)
+#18 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\Features\\SupportPageComponents\\HandlesPageComponents.php(17): Livewire\\LivewireManager->mount('App\\\\Filament\\\\Re...', Array)
+#19 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\Features\\SupportPageComponents\\SupportPageComponents.php(117): Livewire\\Component->{closure:Livewire\\Features\\SupportPageComponents\\HandlesPageComponents::__invoke():14}()
+#20 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\Features\\SupportPageComponents\\HandlesPageComponents.php(14): Livewire\\Features\\SupportPageComponents\\SupportPageComponents::interceptTheRenderOfTheComponentAndRetreiveTheLayoutConfiguration(Object(Closure))
+#21 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(47): Livewire\\Component->__invoke()
+#22 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(266): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Filament\\Resources\\Carousels\\Pages\\ListCarousels), '__invoke')
+#23 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(212): Illuminate\\Routing\\Route->runController()
+#24 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(808): Illuminate\\Routing\\Route->run()
+#25 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(170): Illuminate\\Routing\\Router->{closure:Illuminate\\Routing\\Router::runRouteWithinStack():807}(Object(Illuminate\\Http\\Request))
+#26 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\filament\\filament\\src\\Http\\Middleware\\DispatchServingFilamentEvent.php(15): Illuminate\\Pipeline\\Pipeline->{closure:Illuminate\\Pipeline\\Pipeline::prepareDestination():168}(Object(Illuminate\\Http\\Request))
+#27 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Filament\\Http\\Middleware\\DispatchServingFilamentEvent->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#28 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\filament\\filament\\src\\Http\\Middleware\\DisableBladeIconComponents.php(14): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#29 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Filament\\Http\\Middleware\\DisableBladeIconComponents->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(51): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#31 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#32 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(88): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#33 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#34 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\AuthenticateSession.php(67): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#35 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Session\\Middleware\\AuthenticateSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#36 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Middleware\\Authenticate.php(64): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#37 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Auth\\Middleware\\Authenticate->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#39 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#41 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#42 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#44 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#45 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(75): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#46 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#47 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\filament\\filament\\src\\Http\\Middleware\\SetUpPanel.php(19): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#48 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Filament\\Http\\Middleware\\SetUpPanel->handle(Object(Illuminate\\Http\\Request), Object(Closure), Object(Filament\\Panel))
+#49 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(127): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#50 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(807): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#51 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(786): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#52 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(750): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#53 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(739): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#54 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(201): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#55 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(170): Illuminate\\Foundation\\Http\\Kernel->{closure:Illuminate\\Foundation\\Http\\Kernel::dispatchToRouter():198}(Object(Illuminate\\Http\\Request))
+#56 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\livewire\\livewire\\src\\Features\\SupportDisablingBackButtonCache\\DisableBackButtonCacheMiddleware.php(19): Illuminate\\Pipeline\\Pipeline->{closure:Illuminate\\Pipeline\\Pipeline::prepareDestination():168}(Object(Illuminate\\Http\\Request))
+#57 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Livewire\\Features\\SupportDisablingBackButtonCache\\DisableBackButtonCacheMiddleware->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#58 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#59 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#60 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#61 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#62 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#63 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#64 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#65 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#66 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(110): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#67 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#68 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#69 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#70 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#71 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#72 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks.php(22): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#73 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#74 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(127): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():184}:185}(Object(Illuminate\\Http\\Request))
+#75 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(176): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#76 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(145): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#77 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1220): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#78 C:\\laragon\\www\\azmi\\web_sekolah\\public\\index.php(17): Illuminate\\Foundation\\Application->handleRequest(Object(Illuminate\\Http\\Request))
+#79 C:\\laragon\\www\\azmi\\web_sekolah\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(23): require_once('C:\\\\laragon\\\\www\\\\...')
+#80 {main}
+"} 

@@ -1,79 +1,77 @@
+.bg {
+    background: url("/storage/images/BG.png") no-repeat top fixed;
+    background-size: cover;
+    padding-top: 2rem;
+    position: relative;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.877);
+    background-blend-mode: lighten;
+    /* atau multiply */
+}
 
-    .bg {
-        background: url("/storage/images/BG.png") no-repeat top fixed;
-        background-size: cover;
-        padding-top: 2rem;
-        position: relative;
-        width: 100%;
-        background-color: rgba(255, 255, 255, 0.877);
-        background-blend-mode: lighten;
-        /* atau multiply */
-    }
+/* Teks samping logo */
+.brand-text {
+    font-weight: 700;
+    letter-spacing: 1px;
+}
 
-    /* Teks samping logo */
-    .brand-text {
-        font-weight: 700;
-        letter-spacing: 1px;
-     
-    }
+#beranda {
+    margin-top: 90px;
+    /* sesuaikan tinggi navbar */
+}
 
-    #beranda {
-        margin-top: 90px;
-        /* sesuaikan tinggi navbar */
-    }
-
-     .nav-item.dropdown:hover .dropdown-menu {
+.nav-item.dropdown:hover .dropdown-menu {
     display: block;
 }
 
-    #carouselExampleControls {
-        max-width: 1150px;
-        /* ukuran carousel */
-        border-radius: 10px;
-        /* bikin sudut bulat */
-        overflow: hidden;
-        /* biar gambar ikut kebulatannya */
-        margin: 0 auto;
-        /* center */
-    }
+#carouselExampleControls {
+    max-width: 1150px;
+    /* ukuran carousel */
+    border-radius: 10px;
+    /* bikin sudut bulat */
+    overflow: hidden;
+    /* biar gambar ikut kebulatannya */
+    margin: 0 auto;
+    /* center */
+}
 
-    #carouselExampleControls button {
-        max-height: 100px;
-        margin-top: 33vh;
-    }
+#carouselExampleControls button {
+    max-height: 100px;
+    margin-top: 33vh;
+}
 
-    .carousel-item img {
-        height: 750px;
-        width: 100%;
-        transition: all 0.5s ease;
-        object-fit: cover
-    }
+.carousel-item img {
+    height: 750px;
+    width: 100%;
+    transition: all 0.5s ease;
+    object-fit: cover;
+}
 
-    .carousel-item img:hover {
-        transform: scale(1.1);
-        filter: brightness(80%);
-    }
+.carousel-item img:hover {
+    transform: scale(1.1);
+    filter: brightness(80%);
+}
 
-    .card-data {
-        transition: transform 0.5s ease;
-        /* animasi halus */
-    }
+.card-data {
+    transition: transform 0.5s ease;
+    /* animasi halus */
+}
 
-    .card-data:hover {
-        transform: scale(1.05);
-        cursor: pointer;
-        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
-    }
+.card-data:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
 
-    .carousel-caption:hover {
-        text-decoration: underline;
-    }
+.carousel-caption:hover {
+    text-decoration: underline;
+}
 
-    .artikel {
-        transition: transform 0.5s ease;
-        /* animasi halus */
-    }
+.artikel {
+    transition: transform 0.5s ease;
+    /* animasi halus */
+}
 
-    .artikel:hover {
-        text-decoration: underline;
-    }
+.artikel:hover {
+    text-decoration: underline;
+}

@@ -4,61 +4,39 @@
 
 @section('content')
     <!-- Carousel -->
-    <div id="beranda" class="container">
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="{{ asset('storage/images/DSC09542 (2).jpg') }}" class="d-block w-100" alt="...">
+<div id="beranda" class="container">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            @foreach ($carousels as $key => $carousel)
+                <div class="carousel-item {{ $key == 0 ? 'active' : '' }}">
+                    <img src="{{ asset('storage/' . $carousel->image) }}" class="d-block w-100" alt="{{ $carousel->title }}">
                     <div class="carousel-caption d-block text-start bg-dark bg-opacity-75 p-4"
                         style="bottom:0; left:0; right:0;">
-                        <p class="text-warning mb-1">JOB FAIR 2024</p>
+                        <p class="text-warning mb-1">{{ $carousel->title }}</p>
                         <h4>
-                            <a href="#" id="custom-text" class="text-white text-decoration-none">
-                                Judul Berita Ketiga
+                            <a href="{{ $carousel->link ?? '#' }}" id="custom-text" class="text-white text-decoration-none">
+                                {{ $carousel->title }}
                             </a>
                         </h4>
-                        <p class="mb-0">Deskripsi singkat berita ketiga...</p>
+                        <p class="mb-0">{{ $carousel->description }}</p>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="{{ asset('storage/images/DSC09531 (1).jpg') }}" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-block text-start bg-dark bg-opacity-75 p-4"
-                        style="bottom:0; left:0; right:0;">
-                        <p class="text-warning mb-1">JALAN SEHAT 2025</p>
-                        <h4>
-                            <a href="#" id="custom-text" class="text-white text-decoration-none">
-                                Judul Berita Ketiga
-                            </a>
-                        </h4>
-                        <p class="mb-0">Deskripsi singkat berita ketiga...</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="{{ asset('storage/images/DSC_1162 (1).jpg') }}" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-block text-start bg-dark bg-opacity-75 p-4"
-                        style="bottom:0; left:0; right:0;">
-                        <p class="text-warning mb-1">Foto bersama para Guru</p>
-                        <h4>
-                            <a href="#" id="custom-text" class="text-white text-decoration-none">
-                                Judul Berita Ketiga
-                            </a>
-                        </h4>
-                        <p class="mb-0">Deskripsi singkat berita ketiga...</p>
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon bg-warning rounded" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon bg-warning rounded" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+            @endforeach
         </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bg-warning rounded" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-warning rounded" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
+</div>
+
     {{-- card --}}
     <div class="container">
         <div class="row data m-4 justify-content-center">

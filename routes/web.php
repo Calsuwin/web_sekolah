@@ -2,13 +2,12 @@
 
 use App\Http\Controllers\EskulController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\GuruController;
+use App\Http\Controllers\IndexController;
 use App\Http\Controllers\GaleriController;
 use App\Http\Controllers\JurusanController;
 use App\Http\Controllers\ProfilController;
 
-Route::view('/', 'index')->name('index');
-Route::get('/guru', [GuruController::class, 'index'])->name('guru');
+Route::get('/', [IndexController::class, 'index'])->name('index');
 Route::get('/galeri', [GaleriController::class, 'index'])->name('galeri');
 Route::get('/jurusan', [JurusanController::class, 'index'])->name('jurusan');
 Route::get('/eskul', [EskulController::class, 'index'])->name('eskul');
