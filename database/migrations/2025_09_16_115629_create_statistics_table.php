@@ -10,15 +10,14 @@ return new class extends Migration
      * Run the migrations.
      */
     public function up(): void
-{
-    Schema::create('statistics', function (Blueprint $table) {
-        $table->id();
-        $table->string('icon');   // nama icon bootstrap (misal: bi-person-workspace)
-        $table->string('title');  // contoh: Guru, Siswa
-        $table->integer('value'); // jumlahnya
-        $table->timestamps();
-    });
-}
+    {
+        Schema::create('statistics', function (Blueprint $table) {
+            $table->id();
+            $table->string('title');  // contoh: Guru, Siswa
+            $table->integer('value'); // jumlahnya
+            $table->timestamps();
+        });
+    }
 
 
     /**

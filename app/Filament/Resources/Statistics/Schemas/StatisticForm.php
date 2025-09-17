@@ -11,8 +11,6 @@ class StatisticForm
     {
         return $schema
             ->components([
-                TextInput::make('icon')
-                    ->required(),
                 TextInput::make('title')
                     ->required(),
                 TextInput::make('value')

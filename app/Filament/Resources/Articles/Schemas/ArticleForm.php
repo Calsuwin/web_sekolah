@@ -15,7 +15,8 @@ class ArticleForm
         return $schema
             ->components([
                 FileUpload::make('image')
-                    ->image(),
+                    ->required()->disk('public')
+                    ->directory('artikel'),
                 TextInput::make('category')
                     ->required(),
                 TextInput::make('title')

@@ -2,6 +2,7 @@
 
 namespace App\Filament\Resources\Carousels\Schemas;
 
+use Directory;
 use Filament\Forms\Components\FileUpload;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Textarea;
@@ -14,8 +15,8 @@ class CarouselForm
         return $schema
             ->components([
                 FileUpload::make('image')
-                    ->image()
-                    ->required(),
+                    ->required()->disk('public')
+                    ->directory('carousel'),
                 TextInput::make('title')
                     ->required(),
                 Textarea::make('description')

@@ -14,8 +14,6 @@ class StatisticsTable
     {
         return $table
             ->columns([
-                TextColumn::make('icon')
-                    ->searchable(),
                 TextColumn::make('title')
                     ->searchable(),
                 TextColumn::make('value')
