@@ -15,7 +15,10 @@ class ArticlesTable
     {
         return $table
             ->columns([
-                ImageColumn::make('image'),
+                ImageColumn::make('image')
+                    ->disk('public')
+                    ->square()
+                    ->label('Image'),
                 TextColumn::make('category')
                     ->searchable(),
                 TextColumn::make('title')

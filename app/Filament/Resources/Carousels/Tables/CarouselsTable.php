@@ -16,9 +16,9 @@ class CarouselsTable
         return $table
             ->columns([
                 ImageColumn::make('image')
-    ->disk('public')
-    ->square()
-    ->label('Image'),
+                    ->disk('public')
+                    ->square()
+                    ->label('Image'),
 
                 TextColumn::make('title')
                     ->searchable(),

@@ -12,7 +12,9 @@ class GreetingsTable
         return $table
             ->columns([
                 Tables\Columns\ImageColumn::make('photo')
-                    ->label('Foto'),
+                    ->disk('public')
+                    ->square()
+                    ->label('Image'),
 
                 Tables\Columns\TextColumn::make('name')
                     ->label('Nama')

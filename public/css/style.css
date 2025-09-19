@@ -19,6 +19,16 @@
     margin-top: 90px;
     /* sesuaikan tinggi navbar */
 }
+.img-hover {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.img-hover:hover {
+    filter: brightness(1.2); /* lebih terang */
+    transform: scale(1.05);  /* sedikit zoom */
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.6); /* efek glow */
+}
 
 .nav-item.dropdown:hover .dropdown-menu {
     display: block;

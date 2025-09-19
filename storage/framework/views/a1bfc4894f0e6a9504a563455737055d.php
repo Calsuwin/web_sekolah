@@ -51,7 +51,7 @@
     <div class="container">
         <div class="row data m-4 justify-content-center">
             <?php $__currentLoopData = $statistics; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $i => $stat): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
-                <div class="card card-data rounded-0 shadow col-md-2 col-3 bg-dark">
+                <div class="card card-data rounded-0 shadow col-sm-2 col-3 bg-dark">
                     <div class="text-center m-3">
                         <i class="bi <?php echo e($icons[$i] ?? 'bi-circle'); ?> text-light fs-1"></i>
                         <p class="fs-5 fw-semibold text-light mt-2 mb-0 total">
@@ -154,7 +154,7 @@
     </section>
 
 
-
+    
     <section class="w-100 bg-light py-4">
         <div class="container my-4">
             <div class="row">
