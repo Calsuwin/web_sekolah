@@ -36,7 +36,6 @@
         <div class="text-center pt-3 small">&copy; 2025 Azmi Yazid Mendra Kurnia. All rights reserved.</div>
     </div>
 </footer>
-</section>
 <!-- Script -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -44,7 +43,4 @@
 <script>
     AOS.init();
 </script>
-</body>
-
-</html>
 <?php /**PATH C:\laragon\www\asmi\web_sekolah\resources\views/layouts/footer.blade.php ENDPATH**/ ?>

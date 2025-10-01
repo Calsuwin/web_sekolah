@@ -46,6 +46,7 @@
             'bi-people-fill', // Siswa
             'bi-person-badge', // TU
             'bi-lightbulb', // Ekstrakurikuler
+            'bi-emoji-kiss', // Jurusan
         ];
     @endphp
 
@@ -69,22 +70,22 @@
     </div>
 
     @if ($greetings)
-        <section class="w-100 bg-light py-4 rounded-4" data-aos="fade-up" data-aos-duration="800">
+        <section class="w-100 bg-light py-4 rounded-4">
             <div class="container">
                 <div class="row align-items-center">
 
                     {{-- Judul di atas --}}
                     <div class="col-12 mb-4" data-aos="fade-down" data-aos-duration="1000">
-                        <h4 class="fw-semibold mt-3">Sambutan
+                        <h4 class="fw-bold mt-3">Sambutan
                             <br>
-                            <span class="text-primary">Kepala Sekolah</span>
+                            <span class="" style="color: #FAA533;">Kepala Sekolah</span>
                         </h4>
                     </div>
 
                     {{-- Foto Kepala Sekolah --}}
                     <div class="col-md-4 text-center mb-4 pb-4" data-aos="zoom-in" data-aos-duration="1000">
-                        <div class="bg-secondary rounded-4 d-flex align-items-center mb-4 pb-5 justify-content-center mx-auto"
-                            style="width: 350px; height: 250px;">
+                        <div class="rounded-4 d-flex align-items-center mb-4 pb-5 justify-content-center mx-auto"
+                            style="width: 350px; height: 250px; background-color: #708993;">
                             <img src="{{ asset('storage/' . $greetings->photo) }}" alt="{{ $greetings->name }}"
                                 class="rounded pb-3" style="width: 300px; height: auto; object-fit: contain;">
                         </div>
@@ -93,7 +94,7 @@
                     {{-- Isi Sambutan --}}
                     <div class="col-md-8" data-aos="fade-up" data-aos-duration="1200">
                         <h3 class="fw-bold my-1">{{ $greetings->name }} {{ $greetings->title }}</h3>
-                        <div class="text-secondary mt-4 my-4" style="text-align: justify;">
+                        <div class="text-secondary mt-4 my-4 fw-semibold" style="text-align: justify;">
                             {!! $greetings->content !!}
                         </div>
                     </div>
@@ -152,6 +153,26 @@
         </div>
     </section>
 
+    <div class="container-fluid" style="background-color:#FAB12F">
+        <div class="container">
+            <div class="row p-4">
+                <div class="col-md-9 p-4 text-dark ">
+                    <h3 class="fw-semibold" style="margin-right: 15%">"Terwujudnya lulusan yang Cerdas, Aktif, Kompetitif,
+                        Adaptif dan
+                        Produktif
+                        berlandaskan Iman dan
+                        Takwa"
+                    </h3>
+                </div>
+                <div class="col-md-3 p-4 text-light" style="margin-top: 1.5rem;">
+                    <a href="https://instagram.com/smkn4tasikmalaya" target="_blank" class="text-white fs-4 me-3">
+                        <button type="button" class="btn btn-outline-warning text-dark fw-bold">Contact Us</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
 
     {{--  --}}
     <section class="w-100 bg-light py-4">
@@ -252,6 +273,97 @@
             </div>
 
         </div>
+    </section>
+    <section class="bg-custom py-5">
+        <div class="container">
+            <div class="row g-3">
+                <!-- TKJ -->
+                <div class="col-md-4">
+                    <div class="card shadow-sm border-0 rounded-3 h-100 p-3 d-flex align-items-center text-center">
+                        <i class="bi bi-pc-display text-primary fs-1 mb-2"></i>
+                        <h6 class="fw-semibold">Teknik Komputer & Jaringan (TKJ)</h6>
+                    </div>
+                </div>
+
+                <!-- PPLG -->
+                <div class="col-md-4">
+                    <div class="card shadow-sm border-0 rounded-3 h-100 p-3 d-flex align-items-center text-center">
+                        <i class="bi bi-code-slash text-success fs-1 mb-2"></i>
+                        <h6 class="fw-semibold">Pengembangan Perangkat Lunak & Gim (PPLG)</h6>
+                    </div>
+                </div>
+
+                <!-- TSM -->
+                <div class="col-md-4">
+                    <div class="card shadow-sm border-0 rounded-3 h-100 p-3 d-flex align-items-center text-center">
+                        <i class="bi bi-tools text-danger fs-1 mb-2"></i>
+                        <h6 class="fw-semibold">Teknik Sepeda Motor (TSM)</h6>
+                    </div>
+                </div>
+
+                <!-- DKV -->
+                <div class="col-md-4">
+                    <div class="card shadow-sm border-0 rounded-3 h-100 p-3 d-flex align-items-center text-center">
+                        <i class="bi bi-palette text-warning fs-1 mb-2"></i>
+                        <h6 class="fw-semibold">Desain Komunikasi Visual (DKV)</h6>
+                    </div>
+                </div>
+
+                <!-- TOI -->
+                <div class="col-md-4">
+                    <div class="card shadow-sm border-0 rounded-3 h-100 p-3 d-flex align-items-center text-center">
+                        <i class="bi bi-cpu text-info fs-1 mb-2"></i>
+                        <h6 class="fw-semibold">Teknik Otomasi Industri (TOI)</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+            </div>
+        </div>
+        <div class="container my-4 p-4 ">
+            <div class="row">
+                <!-- Form -->
+                <div class="col-md-6">
+                    <h3 class="fw-bold mb-4">Contact</h3>
+                    <form>
+                        <div class="row mb-3">
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Name" required>
+                            </div>
+                            <div class="col">
+                                <input type="email" class="form-control" placeholder="E-mail" required>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="4" placeholder="Pesan"></textarea>
+                        </div>
+                        <small class="text-muted d-block mb-3">
+                            *NB anda tidak perlu login untuk mengisi kritik dan saran
+                        </small>
+                        <button type="submit" class="btn btn-success px-4 rounded-pill">Kirim</button>
+                    </form>
+                </div>
+
+                <!-- Info & Map -->
+                <div class="col-md-6">
+                    <h4 class="fw-bold">SMK Negeri 4 Tasikmalaya</h4>
+                    <p>
+                        📍 Jl. Depok, Sukamenak, Purbaratu, Kota Tasikmalaya, Jawa Barat 46196
+                        <br> ☎ 0265-312059
+                        <br> ✉ smkn4tsm@gmail.com
+                    </p>
+                    <div class="ratio ratio-4x3 rounded shadow">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.403361873904!2d108.19786697403386!3d-7.532904774323888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6592a3b6dfd66b%3A0x6b4f0d79f3e8f9e1!2sSMKN%204%20Tasikmalaya!5e0!3m2!1sid!2sid!4v1727777777777!5m2!1sid!2sid"
+                            width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </section>
 
 

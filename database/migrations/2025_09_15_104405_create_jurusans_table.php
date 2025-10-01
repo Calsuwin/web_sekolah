@@ -17,6 +17,9 @@ return new class extends Migration
             $table->string('nama_jurusan');
             $table->string('kode_jurusan');
             $table->string('deskripsi');
+            $table->string('kaprog')->nullable();
+            $table->string('akreditasi', 5)->nullable();
+            $table->integer('jumlah_siswa')->default(0);
             $table->timestamps();
         });
     }

@@ -9,6 +9,7 @@
     
     <link rel="stylesheet" href="<?php echo e(asset('css/style.css')); ?>">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style></style>
 </head>
 
 <body>

@@ -9,6 +9,15 @@
     /* atau multiply */
 }
 
+.bg-custom {
+    background-image: url('/storage/images/wp4889244.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.705);
+    background-blend-mode: lighten;
+}
+
 /* Teks samping logo */
 .brand-text {
     font-weight: 700;
