@@ -104,6 +104,39 @@
         </section>
     <?php endif; ?>
 
+    <section class="py-5">
+        <div class="container-fluid" data-aos="fade-up" data-aos-duration="1000">
+            <div class="row align-items-center">
+                <!-- Gambar -->
+                <div class="col-md-6">
+                    <img src="<?php echo e(asset('storage/DJI_20250922070907_0023_D.JPG')); ?>" class="img-fluid w-100"
+                        style="height: 600px; object-fit:cover;" alt="SMKN 4 Tasikmalaya">
+                </div>
+
+                <!-- Teks -->
+                <div class="col-md-6 ps-5" style="margin-top: 3rem;">
+                    <h1 class="fw-bold" style="font-family: 'Playfair Display', serif; font-size:2.5rem; line-height:1.2;">
+                        Kenapa Harus <br> SMK NEGERI 4 TASIKMALAYA?
+                    </h1>
+
+                    <p class="mt-4" style="font-family: 'Roboto', sans-serif; font-size:1rem; line-height:1.6;">
+                        SMKN 4 Tasikmalaya adalah pilihan tepat untuk menyiapkan masa depan.
+                        Dengan dukungan fasilitas modern, kurikulum terkini, dan lingkungan belajar yang kondusif,
+                        sekolah ini membantu siswa berkembang baik secara akademis maupun keterampilan praktis.
+                    </p>
+
+                    <ul style="font-family: 'Roboto', sans-serif; font-size:1rem; line-height:1.8;">
+                        <li>Fasilitas lengkap dengan laboratorium modern.</li>
+                        <li>Guru berpengalaman dan kompeten di bidangnya.</li>
+                        <li>Program keahlian sesuai kebutuhan industri.</li>
+                        <li>Kerja sama luas dengan dunia usaha & dunia industri (DUDI).</li>
+                        <li>Lingkungan belajar nyaman, kreatif, dan inovatif.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
 
     <!-- Artikel Section -->
