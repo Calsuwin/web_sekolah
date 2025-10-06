@@ -18,7 +18,7 @@
 <body>
     <section class="bg">
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark shadow-lg fixed-top" style="background-color: #2F5755;">
             <div class="container">
                 <a class="navbar-brand d-flex align-items-center" href="<?php echo e(route('index')); ?>">
                     <img src="<?php echo e(asset('storage/images/smk.png')); ?>" alt="Logo" width="60">
