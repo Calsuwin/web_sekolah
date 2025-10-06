@@ -83,7 +83,7 @@
                     </div>
 
                     
-                    <div class="col-md-4 text-center mb-4 pb-4" data-aos="zoom-in" data-aos-duration="1000">
+                    <div class="col-sm-4 text-center mb-4 pb-4" data-aos="zoom-in" data-aos-duration="1000">
                         <div class="rounded-4 d-flex align-items-center mb-4 pb-5 justify-content-center mx-auto"
                             style="width: 350px; height: 250px; background-color: #708993;">
                             <img src="<?php echo e(asset('storage/' . $greetings->photo)); ?>" alt="<?php echo e($greetings->name); ?>"
@@ -92,7 +92,7 @@
                     </div>
 
                     
-                    <div class="col-md-8" data-aos="fade-up" data-aos-duration="1200">
+                    <div class="col-sm-8" data-aos="fade-up" data-aos-duration="1200">
                         <h3 class="fw-bold my-1"><?php echo e($greetings->name); ?> <?php echo e($greetings->title); ?></h3>
                         <div class="text-secondary mt-4 my-4 fw-semibold" style="text-align: justify;">
                             <?php echo $greetings->content; ?>
@@ -104,38 +104,102 @@
         </section>
     <?php endif; ?>
 
-    <section class="py-5">
-        <div class="container-fluid" data-aos="fade-up" data-aos-duration="1000">
-            <div class="row align-items-center">
-                <!-- Gambar -->
+    <section class="py-5" style="background-color: #f1f1f1c2">
+        <div class="container">
+
+            <!-- 1. Alasan Utama -->
+            <div class="row align-items-center mb-5" data-aos="fade-up" data-aos-duration="1000">
                 <div class="col-md-6">
-                    <img src="<?php echo e(asset('storage/DJI_20250922070907_0023_D.JPG')); ?>" class="img-fluid w-100"
-                        style="height: 600px; object-fit:cover;" alt="SMKN 4 Tasikmalaya">
+                    <img src="<?php echo e(asset('storage/DSC07979.JPG')); ?>" class="img-fluid"
+                        style="height: 600px; object-fit: cover;" alt="SMKN 4 Tasikmalaya">
                 </div>
-
-                <!-- Teks -->
-                <div class="col-md-6 ps-5" style="margin-top: 3rem;">
-                    <h1 class="fw-bold" style="font-family: 'Playfair Display', serif; font-size:2.5rem; line-height:1.2;">
-                        Kenapa Harus <br> SMK NEGERI 4 TASIKMALAYA?
+                <div class="col-md-6 ps-5 mt-4 mt-md-0">
+                    <h1 class="fw-bold" style="font-family: 'Playfair Display', serif; font-size:2.3rem; line-height:1.2;">
+                        Tempat Di Mana Potensi Jadi Prestasi
                     </h1>
-
                     <p class="mt-4" style="font-family: 'Roboto', sans-serif; font-size:1rem; line-height:1.6;">
-                        SMKN 4 Tasikmalaya adalah pilihan tepat untuk menyiapkan masa depan.
-                        Dengan dukungan fasilitas modern, kurikulum terkini, dan lingkungan belajar yang kondusif,
-                        sekolah ini membantu siswa berkembang baik secara akademis maupun keterampilan praktis.
+                        Di SMKN 4 Tasikmalaya, setiap siswa dibimbing untuk menemukan dan mengasah potensinya.
+                        Kami tidak hanya mengajar, tapi juga menumbuhkan karakter, kreativitas, dan semangat profesional.
                     </p>
-
                     <ul style="font-family: 'Roboto', sans-serif; font-size:1rem; line-height:1.8;">
-                        <li>Fasilitas lengkap dengan laboratorium modern.</li>
-                        <li>Guru berpengalaman dan kompeten di bidangnya.</li>
-                        <li>Program keahlian sesuai kebutuhan industri.</li>
-                        <li>Kerja sama luas dengan dunia usaha & dunia industri (DUDI).</li>
-                        <li>Lingkungan belajar nyaman, kreatif, dan inovatif.</li>
+                        <li>Pembelajaran berbasis proyek dan praktik nyata.</li>
+                        <li>Pembinaan karakter dan kepemimpinan siswa.</li>
+                        <li>Pendampingan karier dan wirausaha muda.</li>
                     </ul>
                 </div>
             </div>
+
+            <!-- 2. Fasilitas Modern -->
+            <div class="row align-items-center flex-md-row-reverse mb-5" data-aos="fade-up" data-aos-duration="1000">
+                <div class="col-md-6">
+                    <img src="<?php echo e(asset('storage/DSC08615.JPG')); ?>" class="img-fluid"
+                        style="height: 600px; object-fit: cover;" alt="Fasilitas Modern SMKN 4 Tasikmalaya">
+                </div>
+                <div class="col-md-6 ps-5 mt-4 mt-md-0">
+                    <h1 class="fw-bold" style="font-family: 'Playfair Display', serif; font-size:2.3rem; line-height:1.2;">
+                        Fasilitas Lengkap, Siap Hadapi Dunia Industri
+                    </h1>
+                    <p class="mt-4" style="font-family: 'Roboto', sans-serif; font-size:1rem; line-height:1.6;">
+                        Dengan laboratorium modern dan sarana praktik lengkap, siswa dapat belajar sesuai
+                        dengan standar industri dan teknologi terkini.
+                    </p>
+                    <ul style="font-family: 'Roboto', sans-serif; font-size:1rem; line-height:1.8;">
+                        <li>Lab komputer dan jaringan berstandar industri.</li>
+                        <li>Workshop otomotif dan elektro yang lengkap.</li>
+                        <li>Lingkungan belajar bersih, aman, dan nyaman.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 3. Kerja Sama Industri -->
+            <div class="row align-items-center mb-5" data-aos="fade-up" data-aos-duration="1000">
+                <div class="col-md-6">
+                    <img src="<?php echo e(asset('storage/DSC08073.JPG')); ?>" class="img-fluid"
+                        style="height: 600px; object-fit: cover;" alt="Kerja Sama Industri SMKN 4 Tasikmalaya">
+                </div>
+                <div class="col-md-6 ps-5 mt-4 mt-md-0">
+                    <h1 class="fw-bold"
+                        style="font-family: 'Playfair Display', serif; font-size:2.3rem; line-height:1.2;">
+                        Terhubung Langsung dengan Dunia Usaha & Industri
+                    </h1>
+                    <p class="mt-4" style="font-family: 'Roboto', sans-serif; font-size:1rem; line-height:1.6;">
+                        SMKN 4 Tasikmalaya aktif menjalin kerja sama dengan berbagai perusahaan nasional dan multinasional
+                        untuk magang, pelatihan, serta rekrutmen tenaga kerja.
+                    </p>
+                    <ul style="font-family: 'Roboto', sans-serif; font-size:1rem; line-height:1.8;">
+                        <li>Program magang langsung di perusahaan mitra.</li>
+                        <li>Pelatihan industri dari praktisi profesional.</li>
+                        <li>Jalur cepat menuju dunia kerja nyata.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 4. Prestasi dan Inovasi -->
+            <div class="row align-items-center flex-md-row-reverse" data-aos="fade-up" data-aos-duration="1000">
+                <div class="col-md-6">
+                    <img src="<?php echo e(asset('storage/DSC07819.JPG')); ?>" class="img-fluid"
+                        style="height: 600px; object-fit: cover;" alt="Prestasi SMKN 4 Tasikmalaya">
+                </div>
+                <div class="col-md-6 ps-5 mt-4 mt-md-0">
+                    <h1 class="fw-bold"
+                        style="font-family: 'Playfair Display', serif; font-size:2.3rem; line-height:1.2;">
+                        Sekolah Inovatif Pencetak Juara
+                    </h1>
+                    <p class="mt-4" style="font-family: 'Roboto', sans-serif; font-size:1rem; line-height:1.6;">
+                        Berbagai prestasi di bidang akademik, teknologi, dan kreativitas membuktikan bahwa
+                        SMKN 4 Tasikmalaya bukan sekadar sekolah, tapi rumah bagi para inovator muda.
+                    </p>
+                    <ul style="font-family: 'Roboto', sans-serif; font-size:1rem; line-height:1.8;">
+                        <li>Juara lomba LKS tingkat provinsi & nasional.</li>
+                        <li>Inovasi karya siswa di bidang teknologi & desain.</li>
+                        <li>Dukungan penuh untuk siswa berprestasi.</li>
+                    </ul>
+                </div>
+            </div>
+
         </div>
     </section>
+
 
 
 
@@ -356,6 +420,8 @@
 
             </div>
         </div>
+
+
         <div class="container my-4 p-4 ">
             <div class="row">
                 <!-- Form -->
@@ -374,7 +440,7 @@
                             <textarea class="form-control" rows="4" placeholder="Pesan"></textarea>
                         </div>
                         <small class="text-muted d-block mb-3">
-                            *NB anda tidak perlu login untuk mengisi kritik dan saran
+                            *Notw anda tidak perlu login untuk mengisi kritik dan saran
                         </small>
                         <button type="submit" class="btn btn-success px-4 rounded-pill">Kirim</button>
                     </form>
@@ -390,9 +456,9 @@
                     </p>
                     <div class="ratio ratio-4x3 rounded shadow">
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.403361873904!2d108.19786697403386!3d-7.532904774323888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6592a3b6dfd66b%3A0x6b4f0d79f3e8f9e1!2sSMKN%204%20Tasikmalaya!5e0!3m2!1sid!2sid!4v1727777777777!5m2!1sid!2sid"
-                            width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy">
-                        </iframe>
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.213163631709!2d108.25189907588084!3d-7.329939972091708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f59eeb6bda36f%3A0xa9e724a275da6c2d!2sSMK%20Negeri%204%20Tasikmalaya!5e0!3m2!1sid!2sid!4v1759716649607!5m2!1sid!2sid"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
