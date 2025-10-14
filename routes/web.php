@@ -6,11 +6,13 @@ use App\Http\Controllers\IndexController;
 use App\Http\Controllers\GaleriController;
 use App\Http\Controllers\JurusanController;
 use App\Http\Controllers\ProfilController;
+use App\Http\Controllers\BeritaController;
 
 Route::get('/', [IndexController::class, 'index'])->name('index');
 Route::get('/galeri', [GaleriController::class, 'index'])->name('galeri');
 Route::get('/jurusan', [JurusanController::class, 'index'])->name('jurusan');
 Route::get('/eskul', [EskulController::class, 'index'])->name('eskul');
+Route::get('/berita', [BeritaController::class, 'index'])->name('berita');
 Route::prefix('profil')->name('profil.')->group(function () {
     Route::get('/', [ProfilController::class, 'index'])->name('index');
     Route::get('/sejarah', [ProfilController::class, 'sejarah'])->name('sejarah');

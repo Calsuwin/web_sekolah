@@ -107,9 +107,9 @@
         <div class="container">
 
             <!-- 1. Alasan Utama -->
-            <div class="row align-items-center mb-5" data-aos="fade-up" data-aos-duration="1000">
+            <div style="margin-bottom: 6rem;" class="row align-items-center" data-aos="fade-right" data-aos-duration="1000">
                 <div class="col-md-6">
-                    <img src="{{ asset('storage/DSC07979.JPG') }}" class="img-fluid"
+                    <img src="{{ asset('storage/img/DJI_20250922070227_0018_D.JPG') }}" class="img-fluid"
                         style="height: 600px; object-fit: cover;" alt="SMKN 4 Tasikmalaya">
                 </div>
                 <div class="col-md-6 ps-5 mt-4 mt-md-0">
@@ -129,9 +129,9 @@
             </div>
 
             <!-- 2. Fasilitas Modern -->
-            <div class="row align-items-center flex-md-row-reverse mb-5" data-aos="fade-up" data-aos-duration="1000">
+            <div style="margin-bottom: 6rem;" class="row align-items-center flex-md-row-reverse" data-aos="fade-left" data-aos-duration="1000">
                 <div class="col-md-6">
-                    <img src="{{ asset('storage/DSC08615.JPG') }}" class="img-fluid"
+                    <img src="{{ asset('storage/img/DSC08627.JPG') }}" class="img-fluid"
                         style="height: 600px; object-fit: cover;" alt="Fasilitas Modern SMKN 4 Tasikmalaya">
                 </div>
                 <div class="col-md-6 ps-5 mt-4 mt-md-0">
@@ -151,9 +151,9 @@
             </div>
 
             <!-- 3. Kerja Sama Industri -->
-            <div class="row align-items-center mb-5" data-aos="fade-up" data-aos-duration="1000">
+            <div style="margin-bottom: 6rem;" class="row align-items-center" data-aos="fade-right" data-aos-duration="1000">
                 <div class="col-md-6">
-                    <img src="{{ asset('storage/DSC08073.JPG') }}" class="img-fluid"
+                    <img src="{{ asset('storage/img/DSC07987.JPG') }}" class="img-fluid"
                         style="height: 600px; object-fit: cover;" alt="Kerja Sama Industri SMKN 4 Tasikmalaya">
                 </div>
                 <div class="col-md-6 ps-5 mt-4 mt-md-0">
@@ -174,9 +174,9 @@
             </div>
 
             <!-- 4. Prestasi dan Inovasi -->
-            <div class="row align-items-center flex-md-row-reverse" data-aos="fade-up" data-aos-duration="1000">
+            <div style="margin-bottom: 6rem;" class="row align-items-center flex-md-row-reverse" data-aos="fade-left" data-aos-duration="1000">
                 <div class="col-md-6">
-                    <img src="{{ asset('storage/DSC07819.JPG') }}" class="img-fluid"
+                    <img src="{{ asset('storage/img/DSC07979.JPG') }}" class="img-fluid"
                         style="height: 600px; object-fit: cover;" alt="Prestasi SMKN 4 Tasikmalaya">
                 </div>
                 <div class="col-md-6 ps-5 mt-4 mt-md-0">
@@ -207,10 +207,15 @@
         <div class="container">
             <!-- judul -->
             <div class="row">
-                <div class="col-md-12 text-start my-4">
-                    <h2 class="fw-bold" data-aos="fade-up">Berita & Kegiatan</h2>
-                    <hr class="mb-2" data-aos="fade-up">
+                <div class="col-md-6 text-start mb-2" style="padding-top: 2rem;">
+                    <h2 class="fw-bold text-start" data-aos="fade-up">Berita & Kegiatan</h2>
                 </div>
+                <div class="col-md-6 text-end mb-2" style="padding-top: 3rem;">
+                    <a href="{{ route('berita') }}" class="text-decoration-none text-dark" id="custom-text" data-aos="fade-up">
+                    <h4 class="fw-bold text-end" data-aos="fade-up">Lihat Semua ⇨</h4>
+                    </a>
+                </div>
+                    <hr class="mb-4" data-aos="fade-up">
             </div>
 
             <!-- artikel utama -->

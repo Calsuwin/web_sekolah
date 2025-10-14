@@ -1,4 +1,4 @@
-<footer id="aw" class=" bg-dark text-white pt-5 pb-4"
+<footer id="aw" class=" bg-dark text-white pt-5 pb-4">
     <div class="container">
         <div class="row">
             <div class="col-md-4 mb-4">
@@ -42,7 +42,8 @@
 <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
 <script>
      AOS.init({
-        duration: 800,
+        duration: 600,
+        offset : -150,
         once: false,
         mirror: true
     });
