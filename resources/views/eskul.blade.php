@@ -21,7 +21,7 @@
                 </div>
             </div>
 
-            <div class="row g-4">
+            <div class="row g-4 justify-content-center">
                 @foreach ($eskuls as $eskul)
                     <div class="col-md-4" data-aos="zoom-in" data-aos-duration="800">
                         <div class="card h-100 shadow-lg border-0 rounded-4 overflow-hidden card-hover p-4">

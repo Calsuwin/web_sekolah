@@ -1,4 +1,4 @@
-<footer id="aw" class=" bg-dark text-white pt-5 pb-4" style="background-color:">
+<footer id="aw" class=" bg-dark text-white pt-5 pb-4"
     <div class="container">
         <div class="row">
             <div class="col-md-4 mb-4">
@@ -41,5 +41,14 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
 <script>
-    AOS.init();
+     AOS.init({
+        duration: 800,
+        once: false,
+        mirror: true
+    });
+
+    // kalau konten artikel di-load belakangan (blade include, ajax, dsb)
+    window.addEventListener('load', function() {
+        AOS.refresh();
+    });
 </script>
